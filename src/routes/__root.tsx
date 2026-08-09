@@ -126,13 +126,64 @@ function RootShell({ children }: { children: ReactNode }) {
   );
 }
 
+function Masthead() {
+  return (
+    <header className="border-b border-border">
+      <div className="mx-auto flex max-w-3xl flex-wrap items-baseline gap-x-6 gap-y-2 px-5 py-5">
+        <Link to="/" className="font-serif text-xl font-semibold tracking-tight">
+          Mswada Wazi
+        </Link>
+        <span className="text-xs uppercase tracking-widest text-muted-foreground">
+          Kenyan bills, in plain language
+        </span>
+        <nav className="ml-auto flex gap-5 text-xs uppercase tracking-widest">
+          <Link
+            to="/"
+            activeOptions={{ exact: true }}
+            activeProps={{ className: "text-primary" }}
+            inactiveProps={{ className: "text-muted-foreground" }}
+          >
+            Library
+          </Link>
+          <Link
+            to="/translate"
+            activeProps={{ className: "text-primary" }}
+            inactiveProps={{ className: "text-muted-foreground" }}
+          >
+            Translate a bill
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+function SiteFooter() {
+  return (
+    <footer className="mt-16 border-t border-border">
+      <div className="mx-auto max-w-3xl px-5 py-8 text-xs leading-relaxed text-muted-foreground">
+        Mswada Wazi is a public-interest reading tool. Summaries are plain-language
+        interpretations, not legal advice. Curated bills live as files in the project repository —
+        anyone can propose one by opening a pull request.
+      </div>
+    </footer>
+  );
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <div className="flex min-h-screen flex-col">
+        <Masthead />
+        <main className="flex-1">
+          {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+          <Outlet />
+        </main>
+        <SiteFooter />
+      </div>
     </QueryClientProvider>
+
   );
 }
