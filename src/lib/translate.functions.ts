@@ -58,6 +58,7 @@ ${data.text}
           generationConfig: {
             temperature: 0.2,
             responseMimeType: "application/json",
+            thinkingConfig: { thinkingLevel: "low" },
           },
         }),
       },
@@ -83,6 +84,7 @@ ${data.text}
     try {
       parsed = JSON.parse(raw) as TranslationResult;
     } catch {
+      console.error("Unparseable Gemini output:", raw.slice(0, 800));
       throw new Error("Could not read the translation returned by Gemini. Try again.");
     }
     return {
