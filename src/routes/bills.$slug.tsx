@@ -1,7 +1,7 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { getBill } from "@/lib/bills";
-import type { Bill, Lang } from "@/lib/bills";
+import type { Bill, BillClause, Lang } from "@/lib/bills";
 
 export const Route = createFileRoute("/bills/$slug")({
   loader: ({ params }): { bill: Bill } => {
@@ -77,7 +77,7 @@ function BillPage() {
           {lang === "en" ? "Clause by clause" : "Kifungu kwa kifungu"}
         </h2>
         <ol className="mt-4 divide-y divide-border border-t border-border">
-          {bill.clauses.map((c) => (
+          {bill.clauses.map((c: BillClause) => (
             <li key={c.ref} className="py-6">
               <div className="text-xs uppercase tracking-widest text-primary">{c.ref}</div>
               <h3 className="mt-1 text-lg">{c.heading[lang]}</h3>
