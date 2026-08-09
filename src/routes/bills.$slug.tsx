@@ -1,10 +1,10 @@
 import { createFileRoute, Link, notFound } from "@tanstack/react-router";
 import { useState } from "react";
 import { getBill } from "@/lib/bills";
-import type { Lang } from "@/lib/bills";
+import type { Bill, Lang } from "@/lib/bills";
 
 export const Route = createFileRoute("/bills/$slug")({
-  loader: ({ params }) => {
+  loader: ({ params }): { bill: Bill } => {
     const bill = getBill(params.slug);
     if (!bill) throw notFound();
     return { bill };
