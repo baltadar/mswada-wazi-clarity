@@ -49,7 +49,7 @@ ${data.text}
 """`;
 
     const res = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent",
+      "https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
       {
         method: "POST",
         headers: { "content-type": "application/json", "x-goog-api-key": apiKey },
