@@ -77,16 +77,27 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { title: "Mswada Wazi — Kenyan bills in plain language" },
+      {
+        name: "description",
+        content:
+          "Kenyan legislation translated into plain English and Kiswahili that citizens can understand and act on.",
+      },
+      { property: "og:title", content: "Mswada Wazi — Kenyan bills in plain language" },
+      {
+        property: "og:description",
+        content: "Kenyan legislation translated into plain English and Kiswahili.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
@@ -94,6 +105,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
     ],
   }),
+
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
@@ -114,13 +126,64 @@ function RootShell({ children }: { children: ReactNode }) {
   );
 }
 
+function Masthead() {
+  return (
+    <header className="border-b border-border">
+      <div className="mx-auto flex max-w-3xl flex-wrap items-baseline gap-x-6 gap-y-2 px-5 py-5">
+        <Link to="/" className="font-serif text-xl font-semibold tracking-tight">
+          Mswada Wazi
+        </Link>
+        <span className="text-xs uppercase tracking-widest text-muted-foreground">
+          Kenyan bills, in plain language
+        </span>
+        <nav className="ml-auto flex gap-5 text-xs uppercase tracking-widest">
+          <Link
+            to="/"
+            activeOptions={{ exact: true }}
+            activeProps={{ className: "text-primary" }}
+            inactiveProps={{ className: "text-muted-foreground" }}
+          >
+            Library
+          </Link>
+          <Link
+            to="/translate"
+            activeProps={{ className: "text-primary" }}
+            inactiveProps={{ className: "text-muted-foreground" }}
+          >
+            Translate a bill
+          </Link>
+        </nav>
+      </div>
+    </header>
+  );
+}
+
+function SiteFooter() {
+  return (
+    <footer className="mt-16 border-t border-border">
+      <div className="mx-auto max-w-3xl px-5 py-8 text-xs leading-relaxed text-muted-foreground">
+        Mswada Wazi is a public-interest reading tool. Summaries are plain-language
+        interpretations, not legal advice. Curated bills live as files in the project repository —
+        anyone can propose one by opening a pull request.
+      </div>
+    </footer>
+  );
+}
+
 function RootComponent() {
   const { queryClient } = Route.useRouteContext();
 
   return (
     <QueryClientProvider client={queryClient}>
-      {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
-      <Outlet />
+      <div className="flex min-h-screen flex-col">
+        <Masthead />
+        <main className="flex-1">
+          {/* Required: nested routes render here. Removing <Outlet /> breaks all child routes. */}
+          <Outlet />
+        </main>
+        <SiteFooter />
+      </div>
     </QueryClientProvider>
+
   );
 }

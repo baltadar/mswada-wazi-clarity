@@ -1,0 +1,41 @@
+{
+  "slug": "data-protection-amendment-2024",
+  "title": "The Data Protection (Amendment) Bill, 2024",
+  "date": "2024-11-19",
+  "status": "Committee stage",
+  "tags": ["Privacy", "Technology"],
+  "summary": {
+    "en": "Changes the rules on how companies and government agencies collect, store and share your personal data.",
+    "sw": "Inabadilisha sheria kuhusu jinsi makampuni na mashirika ya serikali yanavyokusanya, kuhifadhi na kushiriki data yako binafsi."
+  },
+  "overview": {
+    "en": "This bill updates Kenya's data protection law. It gives you clearer rights to ask what data an organisation holds about you and to have it deleted. It also sets new penalties for organisations that leak data, and creates exemptions for certain state agencies — the most contested part of the bill.",
+    "sw": "Mswada huu unaboresha sheria ya ulinzi wa data nchini Kenya. Unakupa haki wazi zaidi ya kuuliza data gani shirika linahifadhi kukuhusu na kuomba ifutwe. Pia unaweka adhabu mpya kwa mashirika yanayovujisha data, na unatoa misamaha kwa baadhi ya mashirika ya serikali — sehemu inayopingwa zaidi."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 6",
+      "heading": { "en": "Right to erasure", "sw": "Haki ya kufutwa kwa data" },
+      "text": {
+        "en": "You may request deletion of your personal data and the organisation must respond within 30 days.",
+        "sw": "Unaweza kuomba data yako binafsi ifutwe na shirika lazima lijibu ndani ya siku 30."
+      }
+    },
+    {
+      "ref": "Clause 14",
+      "heading": { "en": "Breach notification", "sw": "Taarifa ya uvujaji wa data" },
+      "text": {
+        "en": "Organisations must tell you within 72 hours if your data is exposed, and face fines if they stay silent.",
+        "sw": "Mashirika lazima yakuarifu ndani ya saa 72 iwapo data yako itavuja, na yatatozwa faini yakinyamaza."
+      }
+    },
+    {
+      "ref": "Clause 22",
+      "heading": { "en": "State agency exemptions", "sw": "Misamaha kwa mashirika ya serikali" },
+      "text": {
+        "en": "Allows named agencies to process data without consent for security purposes. In plain terms: some government bodies can bypass the rules above.",
+        "sw": "Inaruhusu mashirika yaliyotajwa kuchakata data bila ridhaa kwa madhumuni ya usalama. Kwa lugha rahisi: baadhi ya vyombo vya serikali vinaweza kukwepa sheria zilizo hapo juu."
+      }
+    }
+  ]
+}

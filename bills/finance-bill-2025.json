@@ -1,0 +1,41 @@
+{
+  "slug": "finance-bill-2025",
+  "title": "The Finance Bill, 2025",
+  "date": "2025-05-08",
+  "status": "Before Parliament",
+  "tags": ["Tax", "Economy"],
+  "summary": {
+    "en": "Sets out the taxes the government wants to collect in the coming year, including changes to VAT, income tax and digital services tax.",
+    "sw": "Inaeleza kodi ambazo serikali inataka kukusanya mwaka ujao, ikijumuisha mabadiliko ya VAT, kodi ya mapato na kodi ya huduma za kidijitali."
+  },
+  "overview": {
+    "en": "This bill is the government's annual money plan. It changes how much tax you pay on your salary, on goods you buy, and on money you earn online. Some everyday goods move from tax-free to taxed. Employers get new duties to report and remit deductions faster. The changes take effect on 1 July 2025 unless Parliament amends them.",
+    "sw": "Mswada huu ni mpango wa fedha wa serikali wa kila mwaka. Unabadilisha kiasi cha kodi unacholipa kwenye mshahara wako, bidhaa unazonunua, na pesa unazopata mtandaoni. Baadhi ya bidhaa za kila siku zinatoka kwenye msamaha wa kodi na kuanza kutozwa. Waajiri wanapewa majukumu mapya ya kuripoti na kuwasilisha makato haraka. Mabadiliko yataanza tarehe 1 Julai 2025 isipokuwa Bunge litayabadilisha."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 4",
+      "heading": { "en": "Income tax bands", "sw": "Viwango vya kodi ya mapato" },
+      "text": {
+        "en": "Adjusts the bands used to calculate PAYE. In plain terms: the amount deducted from your monthly payslip changes, with the largest effect on middle incomes.",
+        "sw": "Inarekebisha viwango vinavyotumika kukokotoa PAYE. Kwa lugha rahisi: kiasi kinachokatwa kwenye mshahara wako wa mwezi kinabadilika, na athari kubwa ikiwa kwa wenye kipato cha kati."
+      }
+    },
+    {
+      "ref": "Clause 17",
+      "heading": { "en": "VAT on essential goods", "sw": "VAT kwa bidhaa muhimu" },
+      "text": {
+        "en": "Moves several items from zero-rated to standard-rated. In plain terms: shelf prices for those items go up by roughly the VAT rate.",
+        "sw": "Inahamisha bidhaa kadhaa kutoka kiwango sifuri hadi kiwango cha kawaida. Kwa lugha rahisi: bei za bidhaa hizo dukani zitapanda takriban kwa kiwango cha VAT."
+      }
+    },
+    {
+      "ref": "Clause 29",
+      "heading": { "en": "Digital services tax", "sw": "Kodi ya huduma za kidijitali" },
+      "text": {
+        "en": "Extends the tax to more online platforms and freelancers paid from abroad. In plain terms: if you earn online, a share of each payment is withheld.",
+        "sw": "Inapanua kodi kwa majukwaa zaidi ya mtandaoni na wafanyakazi huru wanaolipwa kutoka nje. Kwa lugha rahisi: ukipata mapato mtandaoni, sehemu ya kila malipo itakatwa."
+      }
+    }
+  ]
+}
