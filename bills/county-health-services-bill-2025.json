@@ -1,0 +1,41 @@
+{
+  "slug": "county-health-services-bill-2025",
+  "title": "The County Health Services Bill, 2025",
+  "date": "2025-02-03",
+  "status": "Public participation",
+  "tags": ["Health", "Devolution"],
+  "summary": {
+    "en": "Sets out how county governments run hospitals and clinics, and what services must be free at the point of use.",
+    "sw": "Inaeleza jinsi serikali za kaunti zinavyoendesha hospitali na kliniki, na huduma zipi lazima ziwe bure unapofika."
+  },
+  "overview": {
+    "en": "This bill defines the minimum health services every county must provide, who pays for them, and how patients can complain when services fail. It also moves hiring of county health workers to a single county board, which unions have criticised.",
+    "sw": "Mswada huu unaeleza huduma za chini kabisa za afya ambazo kila kaunti lazima itoe, nani analipia, na jinsi wagonjwa wanavyoweza kulalamika huduma zinaposhindwa. Pia unahamisha uajiri wa wafanyakazi wa afya wa kaunti kwa bodi moja ya kaunti, jambo linalopingwa na vyama vya wafanyakazi."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 8",
+      "heading": { "en": "Free primary care", "sw": "Huduma za msingi bila malipo" },
+      "text": {
+        "en": "Basic consultations, immunisation and maternity care at county facilities must be free.",
+        "sw": "Ushauri wa msingi, chanjo na huduma za uzazi katika vituo vya kaunti lazima ziwe bure."
+      }
+    },
+    {
+      "ref": "Clause 19",
+      "heading": { "en": "Patient complaints", "sw": "Malalamiko ya wagonjwa" },
+      "text": {
+        "en": "Every facility must keep a complaints register and respond in writing within 14 days.",
+        "sw": "Kila kituo lazima kiwe na daftari la malalamiko na kijibu kwa maandishi ndani ya siku 14."
+      }
+    },
+    {
+      "ref": "Clause 27",
+      "heading": { "en": "County health board", "sw": "Bodi ya afya ya kaunti" },
+      "text": {
+        "en": "Creates one board to hire and post health workers across the county.",
+        "sw": "Inaunda bodi moja ya kuajiri na kupanga wafanyakazi wa afya kote kaunti."
+      }
+    }
+  ]
+}
