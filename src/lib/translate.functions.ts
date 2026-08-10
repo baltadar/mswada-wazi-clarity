@@ -29,8 +29,15 @@ export type TranslationResult = {
 export const translateBill = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => Input.parse(data))
   .handler(async ({ data }): Promise<TranslationResult> => {
-    const apiKey = process.env["GOOGLE_API_KEY"];
-    if (!apiKey) throw new Error("Missing GOOGLE_API_KEY");
+    const apiKey =
+      process.env["GOOGLE_API_KEY"] ||
+      process.env["GEMINI_API_KEY"] ||
+      process.env["VITE_GOOGLE_API_KEY"];
+    if (!apiKey) {
+      throw new Error(
+        "The translation service is not configured yet (missing Google AI key). Please try again shortly.",
+      );
+    }
 
     const language = data.lang === "sw" ? "Kiswahili" : "English";
 
