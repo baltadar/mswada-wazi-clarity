@@ -32,7 +32,7 @@ function BillPage() {
 
   return (
     <article className="mx-auto max-w-2xl px-5 py-12">
-      <Link to="/" className="text-xs uppercase tracking-widest text-muted-foreground hover:text-primary">
+      <Link to="/library" className="text-xs uppercase tracking-widest text-muted-foreground hover:text-primary">
         ← Library
       </Link>
 

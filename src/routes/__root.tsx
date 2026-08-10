@@ -144,14 +144,14 @@ function Masthead() {
             activeProps={{ className: "text-primary" }}
             inactiveProps={{ className: "text-muted-foreground" }}
           >
-            Library
+            Translate a bill
           </Link>
           <Link
-            to="/translate"
+            to="/library"
             activeProps={{ className: "text-primary" }}
             inactiveProps={{ className: "text-muted-foreground" }}
           >
-            Translate a bill
+            Library
           </Link>
         </nav>
       </div>
