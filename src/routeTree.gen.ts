@@ -10,12 +10,18 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as LibraryRouteImport } from './routes/library'
 import { Route as TranslateRouteImport } from './routes/translate'
 import { Route as BillsSlugRouteImport } from './routes/bills.$slug'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const LibraryRoute = LibraryRouteImport.update({
+  id: '/library',
+  path: '/library',
   getParentRoute: () => rootRouteImport,
 } as any)
 const TranslateRoute = TranslateRouteImport.update({
@@ -31,30 +37,34 @@ const BillsSlugRoute = BillsSlugRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/library': typeof LibraryRoute
   '/translate': typeof TranslateRoute
   '/bills/$slug': typeof BillsSlugRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/library': typeof LibraryRoute
   '/translate': typeof TranslateRoute
   '/bills/$slug': typeof BillsSlugRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/library': typeof LibraryRoute
   '/translate': typeof TranslateRoute
   '/bills/$slug': typeof BillsSlugRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/translate' | '/bills/$slug'
+  fullPaths: '/' | '/library' | '/translate' | '/bills/$slug'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/translate' | '/bills/$slug'
-  id: '__root__' | '/' | '/translate' | '/bills/$slug'
+  to: '/' | '/library' | '/translate' | '/bills/$slug'
+  id: '__root__' | '/' | '/library' | '/translate' | '/bills/$slug'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  LibraryRoute: typeof LibraryRoute
   TranslateRoute: typeof TranslateRoute
   BillsSlugRoute: typeof BillsSlugRoute
 }
@@ -66,6 +76,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/library': {
+      id: '/library'
+      path: '/library'
+      fullPath: '/library'
+      preLoaderRoute: typeof LibraryRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/translate': {
@@ -87,6 +104,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  LibraryRoute: LibraryRoute,
   TranslateRoute: TranslateRoute,
   BillsSlugRoute: BillsSlugRoute,
 }
