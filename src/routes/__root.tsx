@@ -102,7 +102,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+      { rel: "icon", href: "/favicon.png", type: "image/png" },
+      { rel: "apple-touch-icon", href: "/favicon.png" },
     ],
   }),
 
@@ -161,10 +162,27 @@ function Masthead() {
 function SiteFooter() {
   return (
     <footer className="mt-16 border-t border-border">
-      <div className="mx-auto max-w-3xl px-5 py-8 text-xs leading-relaxed text-muted-foreground">
-        Mswada Wazi is a public-interest reading tool. Summaries are plain-language
-        interpretations, not legal advice. Curated bills live as files in the project repository —
-        anyone can propose one by opening a pull request.
+      <div className="mx-auto max-w-3xl space-y-4 px-5 py-8 text-xs leading-relaxed text-muted-foreground">
+        <p className="flex flex-wrap items-center gap-2 text-foreground">
+          <img src="/favicon.png" alt="Youth Advocacy Africa" className="h-6 w-6" />
+          <span>
+            An initiative of{" "}
+            <a
+              href="https://yaafrika.org"
+              target="_blank"
+              rel="noreferrer"
+              className="text-primary underline underline-offset-2"
+            >
+              Youth Advocacy Africa
+            </a>{" "}
+            — yaafrika.org
+          </span>
+        </p>
+        <p>
+          Mswada Wazi is a public-interest reading tool. Summaries are plain-language
+          interpretations, not legal advice. Curated bills live as files in the project repository —
+          anyone can propose one by opening a pull request.
+        </p>
       </div>
     </footer>
   );
