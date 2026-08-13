@@ -1,0 +1,131 @@
+{
+  "slug": "livestock-bill-2026",
+  "title": "The Livestock Bill, 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Agriculture",
+    "Governance",
+    "Economy"
+  ],
+  "summary": {
+    "en": "This Bill establishes a comprehensive legal framework to develop, regulate, and research Kenya's livestock sector through specialized national agencies and a dedicated transformation fund.",
+    "sw": "Mswada huu unaweka mfumo mpana wa kisheria wa kuendeleza, kudhibiti, na kufanyia utafiti sekta ya mifugo nchini Kenya kupitia mashirika maalum ya kitaifa na mfuko maalum wa mabadiliko."
+  },
+  "overview": {
+    "en": "The Livestock Bill 2026 aims to boost food security, safety, and market access by structuring the livestock industry. It clearly defines the roles of both National and County governments to ensure seamless extension services and standard enforcement. The Bill establishes the Livestock Sector Transformation Fund to finance strategic programs and stabilize prices during disasters. It also creates several specialized regulatory, research, and marketing bodies to oversee animal inputs, vaccines, genetics, and leather development. Ultimately, this law seeks to transition Kenyan livestock farming into a highly competitive, commercialized, and modern sector.",
+    "sw": "Mswada wa Mifugo wa 2026 unalenga kukuza usalama wa chakula, ubora, na upatikanaji wa soko kwa kupanga sekta ya mifugo. Unafafanua wazi majukumu ya Serikali ya Kitaifa na Serikali za Kaunti ili kuhakikisha huduma za ugani na utekelezaji wa viwango unaenda vizuri. Mswada huu unaanzisha Mfuko wa Mabadiliko ya Sekta ya Mifugo ili kufadhili programu muhimu na kuimarisha bei wakati wa majanga. Pia unaunda mashirika maalum ya udhibiti, utafiti, na masoko ili kusimamia pembejeo za wanyama, chanjo, rasilimali za jeni, na maendeleo ya ngozi. Hatimaye, sheria hii inalenga kubadilisha ufugaji wa mifugo nchini Kenya kuwa sekta yenye ushindani mkubwa, ya kibiashara, na ya kisasa."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 6",
+      "heading": {
+        "en": "Roles of the National Government",
+        "sw": "Majukumu ya Serikali ya Kitaifa"
+      },
+      "text": {
+        "en": "Directs the National Government to provide affordable inputs, establish strategic feed reserves, stabilize prices, and manage national breeding programs.",
+        "sw": "Inaagiza Serikali ya Kitaifa kutoa pembejeo za bei nafuu, kuanzisha akiba ya kimkakati ya chakula cha mifugo, kuimarisha bei, na kusimamia programu za kitaifa za uzalishaji."
+      }
+    },
+    {
+      "ref": "Clause 7",
+      "heading": {
+        "en": "Roles of County Governments",
+        "sw": "Majukumu ya Serikali za Kaunti"
+      },
+      "text": {
+        "en": "Requires county governments to deliver extension services, facilitate access to credit and insurance, and construct local markets and value-addition infrastructure.",
+        "sw": "Inazitaka serikali za kaunti kutoa huduma za ugani, kurahisisha upatikanaji wa mikopo na bima, na kujenga masoko ya ndani na miundombinu ya kuongeza thamani."
+      }
+    },
+    {
+      "ref": "Clause 8",
+      "heading": {
+        "en": "Establishment of the Livestock Sector Transformation Fund",
+        "sw": "Kuanzishwa kwa Mfuko wa Mabadiliko ya Sekta ya Mifugo"
+      },
+      "text": {
+        "en": "Creates a dedicated fund to finance strategic livestock programs, build resilience, and mitigate disasters like droughts affecting pastoralists.",
+        "sw": "Inaunda mfuko maalum wa kufadhili programu za kimkakati za mifugo, kujenga uwezo wa kuhimili majanga, na kupunguza athari za majanga kama ukame unaowaathiri wafugaji."
+      }
+    },
+    {
+      "ref": "Clause 13",
+      "heading": {
+        "en": "Livestock Inputs and Products Regulatory Authority",
+        "sw": "Mamlaka ya Udhibiti wa Pembejeo na Bidhaa za Mifugo"
+      },
+      "text": {
+        "en": "Establishes a regulatory body to control the quality, manufacture, and sale of animal feeds, breeding genetics, and equipment.",
+        "sw": "Inaanzisha chombo cha udhibiti ili kudhibiti ubora, utengenezaji, na uuzaji wa chakula cha mifugo, jeni za uzazi, na vifaa vya mifugo."
+      }
+    },
+    {
+      "ref": "Clause 20",
+      "heading": {
+        "en": "Powers of Compliance Officers and Inspectors",
+        "sw": "Mamlaka ya Maafisa wa Utekelezaji na Wakaguzi"
+      },
+      "text": {
+        "en": "Grants inspectors the power to enter business premises, take samples, inspect records, and seize substandard livestock inputs or products.",
+        "sw": "Inawapa wakaguzi mamlaka ya kuingia kwenye majengo ya biashara, kuchukua sampuli, kukagua kumbukumbu, na kukamata pembejeo au bidhaa za mifugo zilizo chini ya kiwango."
+      }
+    },
+    {
+      "ref": "Clause 22",
+      "heading": {
+        "en": "Kenya Livestock Research Organisation",
+        "sw": "Shirika la Utafiti wa Mifugo la Kenya"
+      },
+      "text": {
+        "en": "Establishes a national body dedicated to conducting and coordinating scientific research on livestock diseases, feeds, and food safety.",
+        "sw": "Inaanzisha chombo cha kitaifa kilichojitolea kufanya na kuratibu utafiti wa kisayansi kuhusu magonjwa ya mifugo, chakula cha mifugo, na usalama wa chakula."
+      }
+    },
+    {
+      "ref": "Clause 35",
+      "heading": {
+        "en": "Livestock and Livestock Products Marketing Board",
+        "sw": "Bodi ya Masoko ya Mifugo na Bidhaa za Mifugo"
+      },
+      "text": {
+        "en": "Creates a board to promote local and international trade, brand Kenyan meat, and implement livestock identification and traceability systems.",
+        "sw": "Inaunda bodi ya kukuza biashara ya ndani na kimataifa, kutangaza chapa ya nyama ya Kenya, na kutekeleza mifumo ya kutambua na kufuatilia mifugo."
+      }
+    },
+    {
+      "ref": "Clause 42",
+      "heading": {
+        "en": "Kenya Veterinary Vaccines Institute",
+        "sw": "Taasisi ya Chanjo za Mifugo ya Kenya"
+      },
+      "text": {
+        "en": "Establishes an institute to manufacture, market, and distribute affordable and safe veterinary vaccines locally and internationally.",
+        "sw": "Inaanzisha taasisi ya kutengeneza, kutangaza, na kusambaza chanjo za mifugo za bei nafuu na salama nchini na kimataifa."
+      }
+    },
+    {
+      "ref": "Clause 54",
+      "heading": {
+        "en": "Kenya Animal Genetic Resources Centre",
+        "sw": "Kituo cha Rasilimali za Jeni za Wanyama cha Kenya"
+      },
+      "text": {
+        "en": "Establishes a center to conserve animal genetic resources, manage a national gene bank, and distribute high-quality semen and embryos for breeding.",
+        "sw": "Inaanzisha kituo cha kuhifadhi rasilimali za jeni za wanyama, kusimamia benki ya kitaifa ya jeni, na kusambaza mbegu za kiume na viinitete vya ubora wa juu kwa ajili ya uzazi."
+      }
+    },
+    {
+      "ref": "Clause 60",
+      "heading": {
+        "en": "Kenya Leather Development Authority",
+        "sw": "Mamlaka ya Maendeleo ya Ngozi ya Kenya"
+      },
+      "text": {
+        "en": "Establishes an authority to promote the leather industry, set up industrial parks, and support small businesses making leather goods.",
+        "sw": "Inaanzisha mamlaka ya kukuza tasnia ya ngozi, kuanzisha mbuga za viwanda, na kusaidia biashara ndogo ndogo zinazotengeneza bidhaa za ngozi."
+      }
+    }
+  ]
+}

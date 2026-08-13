@@ -1,0 +1,131 @@
+{
+  "slug": "films-and-stage-plays-amendment-bill-2026",
+  "title": "The Films and Stage Plays Amendment Bill, 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Culture",
+    "Governance",
+    "Economy"
+  ],
+  "summary": {
+    "en": "This Bill seeks to dissolve the Kenya Film Classification Board (KFCB) and transfer its film regulatory and licensing functions directly to the Ministry and appointed licensing officers.",
+    "sw": "Mswada huu unalenga kuvunja Bodi ya Ainisho ya Filamu nchini (KFCB) na kuhamisha majukumu yake ya udhibiti na utoaji leseni za filamu moja kwa moja kwa Wizara na maafisa wa kutoa leseni."
+  },
+  "overview": {
+    "en": "The Films and Stage Plays (Amendment) Bill, 2026 proposes a major restructuring of film regulation in Kenya by abolishing the Kenya Film Classification Board (KFCB). This decision aligns with government efforts to streamline state corporations, reduce financial inefficiencies, and cut down on public spending. Under the new framework, the Cabinet Secretary and designated public officers from the Ministry will take over the roles of licensing, examining, and classifying films and posters. All existing licenses, assets, liabilities, and staff of the dissolved Board will be transitioned to the Ministry and the wider public service.",
+    "sw": "Mswada wa Marekebisho ya Filamu na Michezo ya Jukwaani wa 2026 unapendekeza mabadiliko makubwa katika udhibiti wa filamu nchini Kenya kwa kuivunja Bodi ya Ainisho ya Filamu Kenya (KFCB). Hatua hii inaendana na juhudi za serikali za kurekebisha mashirika ya umma ili kupunguza matumizi yasiyo ya lazima na kuokoa fedha za walipa kodi. Chini ya mfumo huu mpya, Waziri na maafisa wa umma walioteuliwa kutoka Wizarani watachukua majukumu ya kutoa leseni, kukagua, na kuainisha filamu na mabango. Leseni zote zilizopo, mali, madeni, na wafanyakazi wa Bodi hiyo iliyovunjwa watahamishiwa Wizarani na katika utumishi wa umma."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 2",
+      "heading": {
+        "en": "Definition of Cabinet Secretary",
+        "sw": "Tafsiri ya Waziri"
+      },
+      "text": {
+        "en": "Deletes the definition of the 'Board' (KFCB) and introduces the definition of the 'Cabinet Secretary' responsible for films and stage plays to reflect the shift in authority.",
+        "sw": "Inafuta tafsiri ya 'Bodi' (KFCB) na kuweka tafsiri ya 'Waziri' anayehusika na masuala ya filamu na michezo ya jukwaani ili kuonyesha mabadiliko ya mamlaka."
+      }
+    },
+    {
+      "ref": "Clause 3",
+      "heading": {
+        "en": "Appointment of Licensing Officers",
+        "sw": "Uteuzi wa Maafisa wa Leseni"
+      },
+      "text": {
+        "en": "Requires that licensing officers appointed by the Cabinet Secretary must be public officers employed within the Ministry.",
+        "sw": "Inataka kwamba maafisa wa kutoa leseni watakaoteuliwa na Waziri lazima wawe maafisa wa umma wanaofanya kazi ndani ya Wizara husika."
+      }
+    },
+    {
+      "ref": "Clause 4",
+      "heading": {
+        "en": "Abolition of the Board",
+        "sw": "Kuvunjwa kwa Bodi"
+      },
+      "text": {
+        "en": "Repeals Section 11 of the principal Act, officially dissolving the Kenya Film Classification Board as a corporate body.",
+        "sw": "Inafuta Sehemu ya 11 ya Sheria mama, na kuivunja rasmi Bodi ya Ainisho ya Filamu Kenya kama shirika la kisheria."
+      }
+    },
+    {
+      "ref": "Clause 9",
+      "heading": {
+        "en": "Transfer of Film Exhibition Approvals",
+        "sw": "Uhamisho wa Idhini za Maonyesho ya Filamu"
+      },
+      "text": {
+        "en": "Transfers the power to register film exhibitors and distributors, and to issue certificates of approval, from the Board to the Cabinet Secretary and licensing officers.",
+        "sw": "Inahamisha mamlaka ya kusajili waonyeshaji na wasambazaji wa filamu, na kutoa vyeti vya idhini, kutoka kwa Bodi kwenda kwa Waziri na maafisa wa leseni."
+      }
+    },
+    {
+      "ref": "Clause 12",
+      "heading": {
+        "en": "Role of the Cabinet Secretary",
+        "sw": "Wajibu wa Waziri"
+      },
+      "text": {
+        "en": "Replaces the functions of the Board with the role of the Cabinet Secretary, who will now oversee film regulation, age restrictions, and consumer advice.",
+        "sw": "Inabadilisha majukumu ya Bodi na kuweka wajibu wa Waziri, ambaye sasa atasimamia udhibiti wa filamu, kuweka vikwazo vya umri, na kutoa ushauri kwa watazamaji."
+      }
+    },
+    {
+      "ref": "Clause 13",
+      "heading": {
+        "en": "Film Examination and Excisions",
+        "sw": "Ukaguzi na Ukatataji wa Filamu"
+      },
+      "text": {
+        "en": "Empowers individual licensing officers, rather than the Board, to approve films, order cuts (excisions), or reject films for public exhibition.",
+        "sw": "Inampa afisa wa leseni binafsi, badala ya Bodi, mamlaka ya kuidhinisha filamu, kuamuru sehemu fulani zikatwe, au kukataa filamu isionyeshwe kwa umma."
+      }
+    },
+    {
+      "ref": "Clause 14",
+      "heading": {
+        "en": "Classification of Unsuitable Films",
+        "sw": "Uainishaji wa Filamu Zisizofaa"
+      },
+      "text": {
+        "en": "Authorizes licensing officers to rate films as 'for adults only' or unsuitable for children under specific ages, and restrict child admission.",
+        "sw": "Inaruhusu maafisa wa leseni kuainisha filamu kama 'za watu wazima pekee' au zisizofaa kwa watoto chini ya umri fulani, na kuzuia watoto wasiingie."
+      }
+    },
+    {
+      "ref": "Clause 17",
+      "heading": {
+        "en": "Transition and Savings",
+        "sw": "Uhamisho na Uhifadhi wa Haki"
+      },
+      "text": {
+        "en": "Gives effect to the Schedule which details how the assets, liabilities, contracts, and staff of the dissolved Board will be managed and transferred.",
+        "sw": "Inatekeleza Jedwali linaloeleza kwa kina jinsi mali, madeni, mikataba, na wafanyakazi wa Bodi iliyovunjwa watakavyosimamiwa na kuhamishwa."
+      }
+    },
+    {
+      "ref": "Schedule (Para 1)",
+      "heading": {
+        "en": "Validity of Existing Licenses",
+        "sw": "Uhalali wa Leseni Zilizopo"
+      },
+      "text": {
+        "en": "Ensures that all licenses and certificates issued by the Board before the dissolution remain valid under the Cabinet Secretary until they expire.",
+        "sw": "Inahakikisha kwamba leseni na vyeti vyote vilivyotolewa na Bodi kabla ya kuvunjwa kwake vinasalia kuwa halali chini ya Waziri hadi muda wake utakapoisha."
+      }
+    },
+    {
+      "ref": "Schedule (Para 5)",
+      "heading": {
+        "en": "Redeployment of Employees",
+        "sw": "Uhamisho wa Wafanyakazi"
+      },
+      "text": {
+        "en": "Guarantees that staff members employed by the Board at the time of dissolution will be redeployed within the wider public service.",
+        "sw": "Inahakikisha kwamba wafanyakazi waliokuwa wameajiriwa na Bodi wakati wa kuvunjwa kwake watahamishwa na kupangiwa kazi nyingine katika utumishi wa umma."
+      }
+    }
+  ]
+}

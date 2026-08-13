@@ -1,0 +1,121 @@
+{
+  "slug": "kenya-intellectual-property-bill-2026",
+  "title": "The Kenya Intellectual Property Bill, 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Governance",
+    "Technology",
+    "Economy"
+  ],
+  "summary": {
+    "en": "The Kenya Intellectual Property Bill 2026 establishes a unified Authority to manage and protect patents, copyrights, and anti-counterfeit measures in Kenya.",
+    "sw": "Mswada wa Miliki Ubunifu wa Kenya wa 2026 unaanzisha Mamlaka ya pamoja ya kusimamia na kulinda hataza, hakimiliki, na hatua za kupambana na bidhaa ghushi nchini Kenya."
+  },
+  "overview": {
+    "en": [
+      "This Bill seeks to merge and streamline the administration of intellectual property rights in Kenya.",
+      "It establishes the Kenya Intellectual Property Authority to handle patents, utility models, industrial designs, copyrights, and anti-counterfeit enforcement.",
+      "The Bill introduces modern rules for emerging technologies, including the exclusion of artificial intelligence-generated inventions from patent protection.",
+      "It also sets up an Intellectual Property Tribunal to resolve disputes efficiently.",
+      "Furthermore, it provides clear guidelines on the disclosure of biological resources and traditional knowledge in patent applications."
+    ],
+    "sw": [
+      "Mswada huu unalenga kuunganisha na kurahisisha usimamizi wa haki za miliki ubunifu nchini Kenya.",
+      "Unaunda Mamlaka ya Miliki Ubunifu ya Kenya ili kushughulikia hataza, mifano ya matumizi, michoro ya viwanda, hakimiliki, na udhibiti wa bidhaa ghushi.",
+      "Mswada huu unaanzisha sheria za kisasa kwa teknolojia zinazoibuka, ikiwa ni pamoja na kutenga uvumbuzi unaozalishwa na akili mnemba (AI) kutoka kwenye ulinzi wa hataza.",
+      "Pia unaanzisha Baraza la Miliki Ubunifu ili kutatua migogoro kwa ufanisi.",
+      "Zaidi ya hayo, unatoa miongozo ya wazi kuhusu ufichuzi wa rasilimali za kibiolojia na maarifa ya asili katika maombi ya hataza."
+    ]
+  },
+  "clauses": [
+    {
+      "ref": "Clause 3",
+      "heading": {
+        "en": "Establishment of the Authority",
+        "sw": "Kuanzishwa kwa Mamlaka"
+      },
+      "text": {
+        "en": "Establishes the Kenya Intellectual Property Authority as a corporate body with the power to sue, be sued, and manage property.",
+        "sw": "Inaanzisha Mamlaka ya Miliki Ubunifu ya Kenya kama shirika la kisheria lenye uwezo wa kushtaki, kushtakiwa, na kusimamia mali."
+      }
+    },
+    {
+      "ref": "Clause 5",
+      "heading": {
+        "en": "Functions of the Authority",
+        "sw": "Majukumu ya Mamlaka"
+      },
+      "text": {
+        "en": "Outlines the Authority's duties, including registering patents, licensing collective management organizations, and combating counterfeit goods.",
+        "sw": "Inaainisha majukumu ya Mamlaka, ikiwa ni pamoja na kusajili hataza, kutoa leseni kwa mashirika ya usimamizi wa pamoja, na kupambana na bidhaa ghushi."
+      }
+    },
+    {
+      "ref": "Clause 19",
+      "heading": {
+        "en": "Meaning of Invention and AI Exclusions",
+        "sw": "Maana ya Uvumbuzi na Kutengwa kwa Akili Mnemba"
+      },
+      "text": {
+        "en": "Defines what constitutes an invention and explicitly excludes artificial intelligence-generated inventions and algorithms from patent protection.",
+        "sw": "Inafafanua nini maana ya uvumbuzi na inatenga wazi uvumbuzi na algoriti zinazozalishwa na akili mnemba (AI) kutoka kwenye ulinzi ya hataza."
+      }
+    },
+    {
+      "ref": "Clause 28",
+      "heading": {
+        "en": "Disclosure of Biological Resources",
+        "sw": "Ufichuzi wa Rasilimali za Kibiolojia"
+      },
+      "text": {
+        "en": "Requires patent applicants to show proof of prior informed consent if their invention uses biological resources or traditional knowledge.",
+        "sw": "Inataka waombaji wa hataza kuonyesha uthibitisho wa idhini ya mapema ikiwa uvumbuzi wao unatumia rasilimali za kibiolojia au maarifa ya asili."
+      }
+    },
+    {
+      "ref": "Clause 31",
+      "heading": {
+        "en": "Inventions by Employees",
+        "sw": "Uvumbuzi wa Waajiriwa"
+      },
+      "text": {
+        "en": "Provides that inventions made during employment belong to the employer, but guarantees the employee fair payment for exceptionally important creations.",
+        "sw": "Inaeleza kuwa uvumbuzi unaofanywa wakati wa kazi ni mali ya mwajiri, lakini inahakikisha mwajiriwa anapata malipo ya haki kwa uvumbuzi wa umuhimu wa kipekee."
+      }
+    },
+    {
+      "ref": "Clause 60",
+      "heading": {
+        "en": "Term of Patent",
+        "sw": "Muda wa Hataza"
+      },
+      "text": {
+        "en": "Sets the lifespan of a patent at twenty years from the date the application was filed.",
+        "sw": "Inaweka muda wa kudumu wa hataza kuwa miaka ishirini tangu tarehe ya kuwasilishwa kwa ombi."
+      }
+    },
+    {
+      "ref": "Clause 182",
+      "heading": {
+        "en": "Takedown Notice",
+        "sw": "Ilani ya Kuondoa Maudhui"
+      },
+      "text": {
+        "en": "Allows copyright owners to send notices to online service providers to remove content that infringes on their intellectual property.",
+        "sw": "Inaruhusu wamiliki wa hakimiliki kutuma ilani kwa watoa huduma za mtandaoni ili kuondoa maudhui yanayokiuka haki zao za miliki ubunifu."
+      }
+    },
+    {
+      "ref": "Clause 232",
+      "heading": {
+        "en": "Establishment of the Tribunal",
+        "sw": "Kuanzishwa kwa Baraza la Migogoro"
+      },
+      "text": {
+        "en": "Creates the Intellectual Property Tribunal to hear appeals and resolve disputes related to patents, copyrights, and trademarks.",
+        "sw": "Inaunda Baraza la Miliki Ubunifu ili kusikiliza rufaa na kutatua migogoro inayohusiana na hataza, hakimiliki, na alama za biashara."
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "tourism-amendment-bill-2026",
+  "title": "The Tourism Amendment Bill, 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Tourism",
+    "Governance",
+    "Economy"
+  ],
+  "summary": {
+    "en": "This Bill seeks to streamline the tourism sector by dissolving the Tourism Research Institute and the Tourism Finance Corporation, transferring their functions and assets to the Kenya Tourism Board.",
+    "sw": "Mswada huu unalenga kurahisisha sekta ya utalii kwa kuvunja Taasisi ya Utafiti wa Utalii na Shirika la Kifedha la Utalii, na kuhamishia majukumu na mali zao kwa Bodi ya Utalii ya Kenya."
+  },
+  "overview": {
+    "en": [
+      "The Tourism (Amendment) Bill, 2026 aims to enhance efficiency and accountability in Kenya's tourism sector.",
+      "It proposes the dissolution of both the Tourism Research Institute (TRI) and the Tourism Finance Corporation (TFC).",
+      "The research and market intelligence functions previously managed by TRI will now be handled directly by the Kenya Tourism Board (KTB).",
+      "All assets, liabilities, and ongoing court cases of the dissolved entities will be legally transferred to KTB.",
+      "Employees of the dissolved bodies will be deployed to the Public Service Commission.",
+      "The Bill also redefines the objects of the Tourism Fund to support product development, marketing, safety, and county co-financing."
+    ],
+    "sw": [
+      "Mswada wa Utalii (Marekebisho) wa mwaka 2026 unalenga kuongeza ufanisi na uwajibikaji katika sekta ya utalii nchini Kenya.",
+      "Unapendekeza kuvunjwa kwa Taasisi ya Utafiti wa Utalii (TRI) na Shirika la Kifedha la Utalii (TFC).",
+      "Majukumu ya utafiti na habari za soko yaliyokuwa yakisimamiwa na TRI sasa yatashughulikiwa moja kwa moja na Bodi ya Utalii ya Kenya (KTB).",
+      "Mali yote, madeni, na kesi zilizoko mahakamani za mashirika hayo yaliyovunjwa zitahamishiwa kisheria kwa KTB.",
+      "Wafanyakazi wa mashirika hayo yaliyovunjwa watatumwa kwenye Tume ya Huduma za Umma (PSC).",
+      "Mswada huu pia unafafanua upya malengo ya Hazina ya Utalii ili kufadhili ukuzaji wa bidhaa, masoko, usalama, na ushirikiano wa kifedha na serikali za kaunti."
+    ]
+  },
+  "clauses": [
+    {
+      "ref": "Clause 2",
+      "heading": {
+        "en": "New Research Functions for Kenya Tourism Board",
+        "sw": "Majukumu Mapya ya Utafiti kwa Bodi ya Utalii ya Kenya"
+      },
+      "text": {
+        "en": "Expands the mandate of the Kenya Tourism Board to include conducting tourism research, market intelligence, and publishing annual statistics for stakeholders.",
+        "sw": "Inapanua mamlaka ya Bodi ya Utalii ya Kenya ili ijumuishie kufanya utafiti wa utalii, kukusanya habari za soko, na kuchapisha takwimu za kila mwaka kwa wadau."
+      }
+    },
+    {
+      "ref": "Clauses 3-18",
+      "heading": {
+        "en": "Dissolution of the Tourism Research Institute",
+        "sw": "Kuvunjwa kwa Taasisi ya Utafiti wa Utalii"
+      },
+      "text": {
+        "en": "Repeals the sections of the law that established and governed the Tourism Research Institute, effectively abolishing the entity.",
+        "sw": "Inafuta vifungu vya sheria vilivyoanzisha na kuongoza Taasisi ya Utafiti wa Utalii, na hivyo kulivunja shirika hilo rasmi."
+      }
+    },
+    {
+      "ref": "Clause 19",
+      "heading": {
+        "en": "Air Passenger Service Charge Funding",
+        "sw": "Ufadhili Kutokana na Ushuru wa Huduma za Abiria wa Ndege"
+      },
+      "text": {
+        "en": "Directs that money collected from the Air Passengers Service Charge will now be paid into the Tourism Fund.",
+        "sw": "Inaagiza kwamba fedha zinazokusanywa kutokana na Ushuru wa Huduma za Abiria wa Ndege sasa zitalipwa kwenye Hazina ya Utalii."
+      }
+    },
+    {
+      "ref": "Clause 20",
+      "heading": {
+        "en": "Expanded Objects of the Tourism Fund",
+        "sw": "Malengo Yaliyopanuliwa ya Hazina ya Utalii"
+      },
+      "text": {
+        "en": "Redefines how the Tourism Fund is used, including funding local and international marketing, safety initiatives, training, and co-financing tourism projects with county governments.",
+        "sw": "Inafafanua upya jinsi Hazina ya Utalii inavyotumika, ikiwa ni pamoja na kufadhili masoko ya ndani na nje, mikakati ya usalama, mafunzo, na kufadhili miradi ya utalii kwa ushirikiano na serikali za kaunti."
+      }
+    },
+    {
+      "ref": "Clauses 22-33",
+      "heading": {
+        "en": "Dissolution of the Tourism Finance Corporation",
+        "sw": "Kuvunjwa kwa Shirika la Kifedha la Utalii"
+      },
+      "text": {
+        "en": "Repeals the sections of the law that established the Tourism Finance Corporation, abolishing its board, loan facilities, and general fund.",
+        "sw": "Inafuta vifungu vya sheria vilivyoanzisha Shirika la Kifedha la Utalii, na hivyo kufuta bodi yake, huduma za mikopo, na hazina yake kuu."
+      }
+    },
+    {
+      "ref": "Clause 34",
+      "heading": {
+        "en": "Transfer of Assets and Staff of Tourism Research Institute",
+        "sw": "Uhamisho wa Mali na Wafanyakazi wa Taasisi ya Utafiti wa Utalii"
+      },
+      "text": {
+        "en": "Transfers all assets, liabilities, licenses, and pending court cases of the Tourism Research Institute to the Kenya Tourism Board, and deploys its staff to the Public Service Commission.",
+        "sw": "Inahamisha mali yote, madeni, leseni, na kesi zilizoko mahakamani za Taasisi ya Utafiti wa Utalii kwenda kwa Bodi ya Utalii ya Kenya, na kuwatuma wafanyakazi wake kwenye Tume ya Huduma za Umma."
+      }
+    },
+    {
+      "ref": "Clause 35",
+      "heading": {
+        "en": "Transfer of Assets and Staff of Tourism Finance Corporation",
+        "sw": "Uhamisho wa Mali na Wafanyakazi wa Shirika la Kifedha la Utalii"
+      },
+      "text": {
+        "en": "Transfers all assets, liabilities, contracts, and legal proceedings of the Tourism Finance Corporation to the Kenya Tourism Board, and deploys its staff to the Public Service Commission.",
+        "sw": "Inahamisha mali yote, madeni, mikataba, na kesi za kisheria za Shirika la Kifedha la Utalii kwenda kwa Bodi ya Utalii ya Kenya, na kuwatuma wafanyakazi wake kwenye Tume ya Huduma za Umma."
+      }
+    }
+  ]
+}
