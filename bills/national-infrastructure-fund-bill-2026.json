@@ -1,0 +1,98 @@
+{
+  "slug": "national-infrastructure-fund-bill-2026",
+  "title": "The National Infrastructure Fund Bill 2026",
+  "date": "2026-01-15",
+  "status": "Proposed",
+  "tags": [
+    "Infrastructure Development",
+    "Public Finance",
+    "National Investment"
+  ],
+  "summary": {
+    "en": "The National Infrastructure Fund Bill, 2026 establishes a dedicated fund to accelerate key national infrastructure projects and mobilize private capital while reducing reliance on public debt.",
+    "sw": "Mswada wa Hazina ya Kitaifa ya Miundombinu wa 2026 unaanzisha hazina maalum ya kuharakisha miradi mikuu ya kitaifa na kuvutia mitaji ya kibinafsi ili kupunguza utegemezi wa madeni ya umma."
+  },
+  "overview": {
+    "en": "This Bill creates the National Infrastructure Fund as a body corporate to finance major projects like highways, railways, ports, and energy systems. It sets up a Board of Directors to manage the Fund and competitively recruit a Chief Executive Officer. The Bill aims to attract private investments, including pension funds and sovereign wealth funds, to reduce the national debt burden. It also outlines strict guidelines for project preparation, feasibility studies, and financial transparency.",
+    "sw": "Mswada huu unaanzisha Hazina ya Kitaifa ya Miundombinu kama shirika la kufadhili miradi mikuu kama barabara kuu, reli, bandari, na mifumo ya nishati. Unaunda Bodi ya Wakurugenzi kusimamia Hazina hiyo na kuajiri Afisa Mkuu Mtendaji kwa njia ya ushindani. Mswada huu unalenga kuvutia uwekezaji wa kibinafsi, ikiwemo mifuko ya uzeeni, ili kupunguza mzigo wa madeni ya nchi. Pia unaweka miongozo madhubuti ya maandalizi ya miradi, upembuzi yakinifu, na uwazi wa kifedha."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 4",
+      "heading": {
+        "en": "Purpose of the Fund",
+        "sw": "Madhumuni ya Hazina"
+      },
+      "text": {
+        "en": "Defines the Fund's purpose to accelerate key infrastructure like roads, ports, and water systems, and to mobilize private capital.",
+        "sw": "Inafafanua madhumuni ya Hazina kuwa ni kuharakisha miundombinu mikuu kama barabara, bandari, na mifumo ya maji, na kuvutia mitaji ya kibinafsi."
+      }
+    },
+    {
+      "ref": "Clause 6",
+      "heading": {
+        "en": "Board of Directors",
+        "sw": "Bodi ya Wakurugenzi"
+      },
+      "text": {
+        "en": "Establishes a Board of Directors, including an independent chairperson and competitively recruited independent directors, to manage the Fund.",
+        "sw": "Inaanzisha Bodi ya Wakurugenzi, ikijumuisha mwenyekiti huru na wakurugenzi huru wanaoteuliwa kwa ushindani, ili kusimamia Hazina."
+      }
+    },
+    {
+      "ref": "Clause 12",
+      "heading": {
+        "en": "Powers of the Board",
+        "sw": "Mamlaka ya Bodi"
+      },
+      "text": {
+        "en": "Grants the Board powers to invest in projects through equity or debt, while prohibiting borrowing against its own balance sheet.",
+        "sw": "Inaipa Bodi mamlaka ya kuwekeza kwenye miradi kupitia hisa au mikopo, lakini inakataza kukopa kwa kutumia rasilimali zake yenyewe."
+      }
+    },
+    {
+      "ref": "Clause 15",
+      "heading": {
+        "en": "Chief Executive Officer",
+        "sw": "Afisa Mkuu Mtendaji"
+      },
+      "text": {
+        "en": "Provides for the competitive recruitment of a Chief Executive Officer for a four-year term, renewable once.",
+        "sw": "Inatoa nafasi ya kuajiriwa kwa ushindani kwa Afisa Mkuu Mtendaji kwa muhula wa miaka minne, unaoweza kufanywa upya mara moja tu."
+      }
+    },
+    {
+      "ref": "Clause 21",
+      "heading": {
+        "en": "Investment Policy",
+        "sw": "Sera ya Uwekezaji"
+      },
+      "text": {
+        "en": "Requires the Board to develop a five-year Investment Policy specifying priority sectors, expected returns, and exposure limits.",
+        "sw": "Inaitaka Bodi kuandaa Sera ya Uwekezaji ya miaka mitano inayotaja sekta za kipaumbele, faida inayotarajiwa, na viwango vya hatari."
+      }
+    },
+    {
+      "ref": "Clause 23",
+      "heading": {
+        "en": "Feasibility Studies",
+        "sw": "Upembuzi Yakinifu"
+      },
+      "text": {
+        "en": "Mandates the Fund to conduct feasibility studies to ensure projects are commercially viable, affordable, and socially beneficial.",
+        "sw": "Inaitaka Hazina kufanya upembuzi yakinifu ili kuhakikisha miradi ina faida kibiashara, inagharimika, na ina manufaa kwa jamii."
+      }
+    },
+    {
+      "ref": "Clause 29",
+      "heading": {
+        "en": "Sources of Funds",
+        "sw": "Vyanzo vya Fedha"
+      },
+      "text": {
+        "en": "Outlines the sources of the Fund, including privatization proceeds, parliamentary appropriations, and donations or loans.",
+        "sw": "Inaainisha vyanzo vya Hazina, ikiwemo mapato ya ubinafsishaji, fedha zilizotengwa na Bunge, na michango au mikopo."
+      }
+    }
+  ]
+}
