@@ -17,6 +17,8 @@ export type Bill = {
   summary: Bilingual;
   overview: Bilingual;
   clauses: BillClause[];
+  /** URL of the original PDF as published, when we have a copy of it. */
+  pdf?: string;
 };
 
 /**
