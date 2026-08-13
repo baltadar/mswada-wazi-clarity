@@ -114,6 +114,16 @@ function Library() {
               </h2>
               <p className="mt-2 prose-reading text-muted-foreground">{b.summary[lang]}</p>
             </Link>
+            {b.pdf && (
+              <a
+                href={b.pdf}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="-mt-4 mb-6 inline-block text-xs uppercase tracking-widest text-muted-foreground hover:text-primary"
+              >
+                {lang === "en" ? "Original PDF ↓" : "PDF halisi ↓"}
+              </a>
+            )}
           </li>
         ))}
         {results.length === 0 && (
