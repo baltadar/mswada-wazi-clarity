@@ -65,6 +65,17 @@ function BillPage() {
         </div>
       </div>
 
+      {bill.pdf && (
+        <a
+          href={bill.pdf}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="mt-6 inline-block border border-input px-3 py-2 text-xs uppercase tracking-widest text-muted-foreground hover:border-primary hover:text-primary"
+        >
+          {lang === "en" ? "Original PDF ↓" : "PDF halisi ↓"}
+        </a>
+      )}
+
       <section className="mt-10">
         <h2 className="text-xs uppercase tracking-widest text-muted-foreground">
           {lang === "en" ? "In short" : "Kwa ufupi"}
