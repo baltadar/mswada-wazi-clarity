@@ -1,0 +1,109 @@
+{
+  "slug": "water-amendment-bill-2026",
+  "title": "The Water Amendment Bill 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Water",
+    "Governance",
+    "Agriculture"
+  ],
+  "summary": {
+    "en": "This Bill proposes to merge the National Water Harvesting and Storage Authority with the National Irrigation Authority to form a single streamlined body.",
+    "sw": "Mswada huu unapendekeza kuunganisha Mamlaka ya Kitaifa ya Kuvuna na Kuhifadhi Maji na Mamlaka ya Kitaifa ya Unyunyiziaji Maji ili kuunda chombo kimoja kilichoboreshwa."
+  },
+  "overview": {
+    "en": "The Water (Amendment) Bill, 2026 aims to improve the efficiency of water storage and harvesting across Kenya. Currently, these roles are split between different government agencies, leading to overlaps. By repealing sections of the Water Act (Cap 372) that establish the National Water Harvesting and Storage Authority, the Bill paves the way for a merger with the National Irrigation Authority. The combined entity will be known as the National Irrigation and Water Harvesting Authority. This consolidation is expected to streamline operations, reduce administrative costs, and better coordinate national water projects.",
+    "sw": "Mswada wa Maji (Marekebisho) wa 2026 unalenga kuongeza ufanisi wa uhifadhi na uvunaji wa maji kote nchini Kenya. Kwa sasa, majukumu haya yamegawanywa kati ya mashirika tofauti ya serikali, jambo linalosababisha mwingiliano wa kazi. Kwa kufuta sehemu za Sheria ya Maji zinazoanzisha Mamlaka ya Kitaifa ya Kuvuna na Kuhifadhi Maji, Mswada huu unaweka msingi wa kuunganishwa kwake na Mamlaka ya Kitaifa ya Unyunyiziaji Mashamba. Chombo hicho kipya kitajulikana kama Mamlaka ya Kitaifa ya Unyunyiziaji na Uvunaji Maji. Muungano huu unatarajiwa kurahisisha utendaji kazi, kupunguza gharama za usimamizi, na kuratibu vyema miradi ya kitaifa ya maji."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 1",
+      "heading": {
+        "en": "Short Title",
+        "sw": "Jina la Mswada"
+      },
+      "text": {
+        "en": "Establishes the official name of the law as the Water (Amendment) Act, 2026.",
+        "sw": "Inataja jina rasmi la sheria hii kuwa Sheria ya Maji (Marekebisho), 2026."
+      }
+    },
+    {
+      "ref": "Clause 2",
+      "heading": {
+        "en": "Deletion of Definitions",
+        "sw": "Kufutwa kwa Tafsiri za Maneno"
+      },
+      "text": {
+        "en": "Removes the definitions of 'Water Storage Authority' and 'Water Storage Board' from the main Water Act to reflect the merger.",
+        "sw": "Inafuta tafsiri za maneno 'Mamlaka ya Uhifadhi wa Maji' na 'Bodi ya Uhifadhi wa Maji' kutoka kwenye Sheria kuu ya Maji ili kuonyesha muungano huo."
+      }
+    },
+    {
+      "ref": "Clause 3",
+      "heading": {
+        "en": "Removal of Authority Subheading",
+        "sw": "Kuondolewa kwa Kichwa cha Habari cha Mamlaka"
+      },
+      "text": {
+        "en": "Deletes the specific subheading for the National Water Harvesting and Storage Authority from Part III of the main Act.",
+        "sw": "Inafuta kichwa kidogo cha habari kinachohusu Mamlaka ya Kitaifa ya Kuvuna na Kuhifadhi Maji katika Sehemu ya III ya Sheria kuu."
+      }
+    },
+    {
+      "ref": "Clause 4",
+      "heading": {
+        "en": "Repeal of Section 30",
+        "sw": "Kufutwa kwa Sehemu ya 30"
+      },
+      "text": {
+        "en": "Repeals the section that formally established the National Water Harvesting and Storage Authority as a corporate body.",
+        "sw": "Inafuta sehemu inayounda rasmi Mamlaka ya Kitaifa ya Kuvuna na Kuhifadhi Maji kama shirika la kisheria."
+      }
+    },
+    {
+      "ref": "Clause 5",
+      "heading": {
+        "en": "Repeal of Section 31",
+        "sw": "Kufutwa kwa Sehemu ya 31"
+      },
+      "text": {
+        "en": "Abolishes the Water Harvesting and Storage Board, including its leadership structure and membership rules.",
+        "sw": "Inafuta Bodi ya Kuvuna na Kuhifadhi Maji, pamoja na muundo wake wa uongozi na sheria za uanachama."
+      }
+    },
+    {
+      "ref": "Clause 6",
+      "heading": {
+        "en": "Repeal of Section 32",
+        "sw": "Kufutwa kwa Sehemu ya 32"
+      },
+      "text": {
+        "en": "Deletes the specific powers and functions of the Water Storage Authority, such as building national water works and managing flood control.",
+        "sw": "Inafuta mamlaka na majukumu maalum ya Mamlaka ya Uhifadhi wa Maji, kama vile kujenga miundombinu ya kitaifa ya maji na kudhibiti mafuriko."
+      }
+    },
+    {
+      "ref": "Clause 10",
+      "heading": {
+        "en": "Amendment of Section 126",
+        "sw": "Marekebisho ya Sehemu ya 126"
+      },
+      "text": {
+        "en": "Removes the Water Storage Authority from the list of bodies eligible to receive direct funding allocations from Parliament under this Act.",
+        "sw": "Inaondoa Mamlaka ya Uhifadhi wa Maji kwenye orodha ya taasisi zinazostahili kupokea mgao wa fedha wa moja kwa moja kutoka kwa Bunge chini ya Sheria hii."
+      }
+    },
+    {
+      "ref": "Clause 11",
+      "heading": {
+        "en": "Amendment of Section 130",
+        "sw": "Marekebisho ya Sehemu ya 130"
+      },
+      "text": {
+        "en": "Removes the Water Storage Authority's power to retain and manage revenues from water permits, user fees, and other charges.",
+        "sw": "Inaondoa mamlaka ya Mamlaka ya Uhifadhi wa Maji ya kubaki na kusimamia mapato yanayotokana na vibali vya maji, ada za watumiaji, na tozo zingine."
+      }
+    }
+  ]
+}

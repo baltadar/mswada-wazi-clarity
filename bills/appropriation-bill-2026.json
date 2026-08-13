@@ -1,0 +1,98 @@
+{
+  "slug": "appropriation-bill-2026",
+  "title": "The Appropriation Bill 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Economy",
+    "Governance",
+    "Tax"
+  ],
+  "summary": {
+    "en": "This Bill authorizes the government to spend KSh 2.18 trillion from the Consolidated Fund for public services during the 2026/2027 financial year.",
+    "sw": "Mswada huu unaidhinisha serikali kutumia KSh trilioni 2.18 kutoka kwa Mfuko wa Pamoja wa Kitaifa kwa ajili ya huduma za umma katika mwaka wa kifedha wa 2026/2027."
+  },
+  "overview": {
+    "en": "The Appropriation Bill, 2026 is the official legal tool that allows the Kenyan government to withdraw and spend money for its operations. It outlines the budget allocations for both recurrent expenses, like salaries, and development projects across all ministries and state departments. The total amount authorized for withdrawal from the Consolidated Fund is KSh 2,187,508,892,628. Additionally, it permits government agencies to use money they collect directly, known as Appropriations-in-Aid. This funding covers the period starting 1st July, 2026 and ending on 30th June, 2027.",
+    "sw": "Mswada wa Matumizi ya Fedha wa 2026 ni chombo rasmi cha kisheria kinachoipa serikali ya Kenya idhini ya kutoa na kutumia pesa kwa shughuli zake. Unaainisha migawanyo ya bajeti kwa matumizi ya kawaida, kama vile mishahara, na miradi ya maendeleo katika wizara na idara zote za serikali. Jumla ya kiasi kilichoidhinishwa kutolewa kutoka kwa Mfuko wa Pamoja wa Kitaifa ni KSh 2,187,508,892,628. Aidha, unaruhusu idara za serikali kutumia mapato wanayokusanya moja kwa moja, yanayojulikana kama Matumizi ya Mapato ya Ndani (A-in-A). Ufadhili huu unahusu kipindi kinachoanza tarehe 1 Julai, 2026 na kuishia tarehe 30 Juni, 2027."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 1",
+      "heading": {
+        "en": "Short Title and Commencement",
+        "sw": "Jina Fupi na Kuanza Kutumika"
+      },
+      "text": {
+        "en": "This Act will be known as the Appropriation Act, 2026 and is scheduled to officially take effect on 1st July, 2026.",
+        "sw": "Sheria hii itajulikana kama Sheria ya Matumizi ya Fedha, 2026 na imepangwa kuanza kutumika rasmi tarehe 1 Julai, 2026."
+      }
+    },
+    {
+      "ref": "Clause 2",
+      "heading": {
+        "en": "Issuance of Money from the Consolidated Fund",
+        "sw": "Utoaji wa Fedha kutoka Mfuko wa Pamoja wa Kitaifa"
+      },
+      "text": {
+        "en": "Allows the National Treasury to withdraw KSh 2,187,508,892,628 from the national purse to fund public services and development projects for the financial year ending June 30, 2027.",
+        "sw": "Inaruhusu Wizara ya Fedha kutoa KSh 2,187,508,892,628 kutoka kwa mfuko mkuu wa kitaifa ili kufadhili huduma za umma na miradi ya maendeleo kwa mwaka wa kifedha unaoishia Juni 30, 2027."
+      }
+    },
+    {
+      "ref": "Clause 3",
+      "heading": {
+        "en": "Appropriations-in-Aid",
+        "sw": "Matumizi ya Mapato ya Ndani (Appropriations-in-Aid)"
+      },
+      "text": {
+        "en": "Permits government departments to directly spend the additional revenues they collect internally from services they offer, alongside the main budget allocation.",
+        "sw": "Inaruhusu idara za serikali kutumia moja kwa moja mapato ya ziada wanayokusanya ndani kutokana na huduma wanazotoa, pamoja na mgawo mkuu wa bajeti."
+      }
+    },
+    {
+      "ref": "Vote R1066",
+      "heading": {
+        "en": "Basic Education Recurrent Expenditure",
+        "sw": "Matumizi ya Kawaida ya Elimu ya Msingi"
+      },
+      "text": {
+        "en": "Allocates KSh 116.8 billion for day-to-day running costs of basic education, including KSh 12.2 billion for primary education and KSh 86.3 billion for secondary education.",
+        "sw": "Inatenga KSh bilioni 116.8 kwa gharama za kila siku za uendeshaji wa elimu ya msingi, ikijumuisha KSh bilioni 12.2 za elimu ya msingi na KSh bilioni 86.3 za elimu ya sekondari."
+      }
+    },
+    {
+      "ref": "Vote R1082",
+      "heading": {
+        "en": "Medical Services Recurrent Expenditure",
+        "sw": "Matumizi ya Kawaida ya Huduma za Matibabu"
+      },
+      "text": {
+        "en": "Provides KSh 63.9 billion for day-to-day healthcare services, with KSh 23.7 billion dedicated to national referral and specialized hospital services.",
+        "sw": "Inatoa KSh bilioni 63.9 kwa ajili ya huduma za afya za kila siku, huku KSh bilioni 23.7 zikitengwa kwa ajili ya hospitali kuu za rufaa na huduma maalum za matibabu."
+      }
+    },
+    {
+      "ref": "Vote D1091",
+      "heading": {
+        "en": "Roads Development Expenditure",
+        "sw": "Matumizi ya Maendeleo ya Barabara"
+      },
+      "text": {
+        "en": "Allocates KSh 74.5 billion from the national supply and KSh 92.1 billion from internal collections for building and upgrading road transport infrastructure across the country.",
+        "sw": "Inatenga KSh bilioni 74.5 kutoka kwa mgawo wa kitaifa na KSh bilioni 92.1 kutoka kwa mapato ya ndani kwa ajili ya ujenzi na uboreshaji wa miundombinu ya usafiri wa barabara nchini kote."
+      }
+    },
+    {
+      "ref": "Vote R2091",
+      "heading": {
+        "en": "Teachers Service Commission Recurrent Expenditure",
+        "sw": "Matumizi ya Kawaida ya Tume ya Huduma za Walimu"
+      },
+      "text": {
+        "en": "Allocates KSh 422.5 billion to the Teachers Service Commission, primarily to cover teacher resource management, salaries, and administrative costs.",
+        "sw": "Inatenga KSh bilioni 422.5 kwa Tume ya Huduma za Walimu (TSC), hasa kwa ajili ya usimamizi wa walimu, mishahara, na gharama za utawala."
+      }
+    }
+  ]
+}

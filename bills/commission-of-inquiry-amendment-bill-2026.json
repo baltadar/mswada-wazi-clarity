@@ -1,0 +1,98 @@
+{
+  "slug": "commission-of-inquiry-amendment-bill-2026",
+  "title": "The Commission of Inquiry Amendment Bill 2026",
+  "date": "2026-01-15",
+  "status": "Before Parliament",
+  "tags": [
+    "Governance",
+    "Justice",
+    "Constitution"
+  ],
+  "summary": {
+    "en": "This Bill amends the law to require parliamentary approval for the President to set up commissions of inquiry and prevents duplication of roles with existing constitutional commissions.",
+    "sw": "Mswada huu unafanyia marekebisho sheria ili kuhitaji idhini ya Bunge kabla ya Rais kuunda tume za uchunguzi na kuzuia mwingiliano wa majukumu na tume za kikatiba zilizopo."
+  },
+  "overview": {
+    "en": "The Commission of Inquiry Amendment Bill 2026 seeks to reform how public inquiries are established and run in Kenya. Currently, the President has sole power to set up commissions of inquiry. This Bill introduces checks and balances by requiring the National Assembly's approval for such appointments. It also protects the independence of other constitutional bodies by preventing the President from creating inquiries on matters already under their mandates, unless joint action is necessary. Additionally, it safeguards judicial independence by requiring the Chief Justice's approval before any sitting judge can serve as a commissioner.",
+    "sw": "Mswada wa Marekebisho ya Tume za Uchunguzi wa mwaka 2026 unalenga kufanyia mageuzi jinsi tume za uchunguzi wa umma zinavyoundwa na kuendeshwa nchini Kenya. Kwa sasa, Rais ana mamlaka ya kipekee ya kuunda tume hizi. Mswada huu unaleta mfumo wa kudhibiti mamlaka hayo kwa kuhitaji idhini ya Bunge la Kitaifa kabla ya uteuzi kufanyika. Pia unalinda uhuru wa taasisi nyingine za kikatiba kwa kumzuia Rais kuunda tume za uchunguzi kuhusu masuala yaliyo chini ya majukumu ya taasisi hizo, isipokuwa kama kuna haja ya ushirikiano. Aidha, unalinda uhuru wa idara ya mahakama kwa kuhitaji idhini ya Jaji Mkuu kabla ya jaji yeyote anayehudumu kuteuliwa kuwa kamishna."
+  },
+  "clauses": [
+    {
+      "ref": "Clause 2 (Section 3(1))",
+      "heading": {
+        "en": "Parliamentary Approval for Commissions",
+        "sw": "Idhini ya Bunge kwa Tume za Uchunguzi"
+      },
+      "text": {
+        "en": "Requires the President to obtain the approval of the National Assembly before appointing commissioners to conduct a public inquiry.",
+        "sw": "Inamtaka Rais kupata idhini ya Bunge la Kitaifa kabla ya kuwateua makamishna wa kuendesha uchunguzi wa umma."
+      }
+    },
+    {
+      "ref": "Clause 2 (Section 3(2))",
+      "heading": {
+        "en": "No Duplication with Constitutional Commissions",
+        "sw": "Kuzuia Mwingiliano na Tume za Kikatiba"
+      },
+      "text": {
+        "en": "Prevents the President from appointing commissions of inquiry to investigate matters that fall under the mandate of Constitutional Commissions or Independent Offices, unless joint coordination is required.",
+        "sw": "Inamzuia Rais kuunda tume za uchunguzi kuchunguza masuala yaliyo chini ya majukumu ya Tume za Kikatiba au Ofisi Huru, isipokuwa kama kuna haja ya uratibu wa pamoja."
+      }
+    },
+    {
+      "ref": "Clause 2 (Section 3(5))",
+      "heading": {
+        "en": "Protection of Reputation and Fair Hearing",
+        "sw": "Ulinzi wa Sifa na Haki ya Kusikilizwa"
+      },
+      "text": {
+        "en": "Ensures that evidence damaging to a person's reputation is only admitted if relevant, and guarantees the affected person the right to be notified, present, and cross-examine witnesses.",
+        "sw": "Inahakikisha kuwa ushahidi unaoharibu sifa ya mtu unakubaliwa tu ikiwa unafaa, na inampa mtu huyo haki ya kuarifiwa, kuwepo, na kuwahoji mashahidi."
+      }
+    },
+    {
+      "ref": "Clause 2 (Section 3(6))",
+      "heading": {
+        "en": "Public Hearings and Privacy Protections",
+        "sw": "Vikao vya Wazi na Ulinzi wa Faragha"
+      },
+      "text": {
+        "en": "Mandates that inquiries must be held in public, but allows private sessions to protect order, safety, or witness reputations, with strict bans on publishing identifying details of witnesses in private sessions.",
+        "sw": "Inaamuru kuwa uchunguzi lazima ufanyike hadharani, lakini inaruhusu vikao vya siri ili kulinda usalama au sifa za mashahidi, kukiwa na marufuku kali ya kuchapisha picha au majina ya mashahidi hao."
+      }
+    },
+    {
+      "ref": "Clause 2 (Section 3(7))",
+      "heading": {
+        "en": "Penalties for Disobeying Summons",
+        "sw": "Adhabu kwa Kukaidi Wito"
+      },
+      "text": {
+        "en": "Imposes a fine of up to two hundred thousand shillings, imprisonment for up to six months, or both, for anyone who fails to obey an order to attend inquiry proceedings.",
+        "sw": "Inatoa faini isiyozidi shilingi laki mbili, kifungo cha hadi miezi sita, au vyote viwili, kwa mtu yeyote anayekaidi amri ya kufika mbele ya tume ya uchunguzi."
+      }
+    },
+    {
+      "ref": "Clause 2 (Section 3(8))",
+      "heading": {
+        "en": "Disqualification from Appointment",
+        "sw": "Watu Wasioweza Kuteuliwa"
+      },
+      "text": {
+        "en": "Disqualifies Members of Parliament, County Assembly members, Governors, Deputy Governors, bankrupt individuals, and persons dismissed for constitutional violations from being appointed as commissioners.",
+        "sw": "Inawazuia Wabunge, Madiwani, Magavana, Naibu Magavana, watu waliofilisika, na wale waliofutwa kazi kwa kukiuka Katiba kuteuliwa kuwa makamishna."
+      }
+    },
+    {
+      "ref": "Clause 2 (Section 3(9))",
+      "heading": {
+        "en": "Appointment of Serving Judges",
+        "sw": "Uteuzi wa Majaji Wanaohudumu"
+      },
+      "text": {
+        "en": "Allows serving judges to be appointed to a commission of inquiry only after consultation with and approval from the Chief Justice.",
+        "sw": "Inaruhusu majaji wanaohudumu kuteuliwa kwenye tume ya uchunguzi tu baada ya mashauriano na kupata idhini kutoka kwa Jaji Mkuu."
+      }
+    }
+  ]
+}
