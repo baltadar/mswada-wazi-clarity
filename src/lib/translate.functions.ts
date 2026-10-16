@@ -26,22 +26,9 @@ export type TranslationResult = {
   clauses: { ref: string; heading: string; text: string }[];
 };
 
-export const translateBill = createServerFn({ method: "POST" })
-  .inputValidator((data: unknown) => Input.parse(data))
-  .handler(async ({ data }): Promise<TranslationResult> => {
-    const apiKey =
-      process.env["GOOGLE_API_KEY"] ||
-      process.env["GEMINI_API_KEY"] ||
-      process.env["VITE_GOOGLE_API_KEY"];
-    if (!apiKey) {
-      throw new Error(
-        "The translation service is not configured yet (missing Google AI key). Please try again shortly.",
-      );
-    }
-
-    const language = data.lang === "sw" ? "Kiswahili" : "English";
-
-    const prompt = `You are a Kenyan civic-education editor. Rewrite the legislative text below in plain ${language} that an ordinary citizen with no legal training can understand and act on.
+function buildPrompt(text: string, lang: "en" | "sw") {
+  const language = lang === "sw" ? "Kiswahili" : "English";
+  return `You are a Kenyan civic-education editor. Rewrite the legislative text below in plain ${language} that an ordinary citizen with no legal training can understand and act on.
 
 Rules:
 - Use short sentences and everyday words. No legalese, no marketing tone.
@@ -52,50 +39,142 @@ Rules:
 
 LEGISLATIVE TEXT:
 """
-${data.text}
+${text}
 """`;
+}
 
-    const res = await fetch(
-      "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
-      {
-        method: "POST",
-        headers: { "content-type": "application/json", "x-goog-api-key": apiKey },
-        body: JSON.stringify({
-          contents: [{ role: "user", parts: [{ text: prompt }] }],
-          generationConfig: {
-            temperature: 0.2,
-            responseMimeType: "application/json",
-            thinkingConfig: { thinkingLevel: "low" },
+function normalize(raw: string): TranslationResult {
+  const parsed = JSON.parse(raw) as TranslationResult;
+  return {
+    overview: parsed.overview ?? "",
+    clauses: Array.isArray(parsed.clauses) ? parsed.clauses : [],
+  };
+}
+
+async function viaGemini(prompt: string): Promise<TranslationResult> {
+  const apiKey =
+    process.env["GOOGLE_API_KEY"] ||
+    process.env["GEMINI_API_KEY"] ||
+    process.env["VITE_GOOGLE_API_KEY"];
+  if (!apiKey) throw new Error("Gemini key missing");
+  const res = await fetch(
+    "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent",
+    {
+      method: "POST",
+      headers: { "content-type": "application/json", "x-goog-api-key": apiKey },
+      body: JSON.stringify({
+        contents: [{ role: "user", parts: [{ text: prompt }] }],
+        generationConfig: {
+          temperature: 0.2,
+          responseMimeType: "application/json",
+          thinkingConfig: { thinkingLevel: "low" },
+        },
+      }),
+    },
+  );
+  if (!res.ok) {
+    throw new Error(`Gemini request failed [${res.status}]: ${(await res.text()).slice(0, 300)}`);
+  }
+  const json = (await res.json()) as {
+    candidates?: { content?: { parts?: { text?: string }[] } }[];
+  };
+  const raw = json.candidates?.[0]?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
+  if (!raw) throw new Error("Gemini returned an empty response.");
+  return normalize(raw);
+}
+
+/** Backup: built-in AI service, used automatically when Gemini fails. */
+async function viaBackup(prompt: string): Promise<TranslationResult> {
+  const key = process.env["LOVABLE_API_KEY"];
+  if (!key) throw new Error("Backup translation service is not configured.");
+  const res = await fetch("https://ai.gateway.lovable.dev/v1/responses", {
+    method: "POST",
+    headers: {
+      "content-type": "application/json",
+      Authorization: `Bearer ${key}`,
+      "X-Lovable-AIG-SDK": "fetch",
+    },
+    body: JSON.stringify({
+      model: "openai/gpt-6-astra",
+      input: [{ role: "user", content: prompt }],
+      reasoning: { effort: "low" },
+      store: false,
+      stream: true,
+      text: {
+        format: {
+          type: "json_schema",
+          name: "translation",
+          strict: true,
+          schema: {
+            type: "object",
+            additionalProperties: false,
+            required: ["overview", "clauses"],
+            properties: {
+              overview: { type: "string" },
+              clauses: {
+                type: "array",
+                items: {
+                  type: "object",
+                  additionalProperties: false,
+                  required: ["ref", "heading", "text"],
+                  properties: {
+                    ref: { type: "string" },
+                    heading: { type: "string" },
+                    text: { type: "string" },
+                  },
+                },
+              },
+            },
           },
-        }),
+        },
       },
-    );
-
-    if (!res.ok) {
-      const body = await res.text();
-      if (res.status === 429) {
-        throw new Error(
-          "Gemini rate limit reached (free tier). Wait a minute and try again, or shorten the text.",
-        );
+    }),
+  });
+  if (!res.ok || !res.body) {
+    const body = await res.text();
+    if (res.status === 429) throw new Error("The translation service is busy. Wait a minute and try again.");
+    if (res.status === 402 || res.status === 403)
+      throw new Error("The backup translation service has used up its free allowance for now.");
+    throw new Error(`Backup translation failed [${res.status}]: ${body.slice(0, 300)}`);
+  }
+  const reader = res.body.getReader();
+  const dec = new TextDecoder();
+  let buf = "";
+  let out = "";
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    buf += dec.decode(value, { stream: true });
+    let idx;
+    while ((idx = buf.indexOf("\n")) >= 0) {
+      const line = buf.slice(0, idx).trim();
+      buf = buf.slice(idx + 1);
+      if (!line.startsWith("data:")) continue;
+      const payload = line.slice(5).trim();
+      if (!payload || payload === "[DONE]") continue;
+      try {
+        const ev = JSON.parse(payload) as { type?: string; delta?: string; response?: { error?: { message?: string } } };
+        if (ev.type === "response.output_text.delta" && ev.delta) out += ev.delta;
+        if (ev.type === "response.failed") throw new Error(ev.response?.error?.message ?? "Backup translation failed.");
+        if (ev.type === "response.refusal.delta") throw new Error("The backup service declined to translate this text.");
+      } catch (e) {
+        if (e instanceof SyntaxError) continue;
+        throw e;
       }
-      throw new Error(`Gemini request failed [${res.status}]: ${body.slice(0, 500)}`);
     }
+  }
+  if (!out) throw new Error("The backup service returned an empty response. Try again.");
+  return normalize(out);
+}
 
-    const json = (await res.json()) as {
-      candidates?: { content?: { parts?: { text?: string }[] } }[];
-    };
-    const raw = json.candidates?.[0]?.content?.parts?.map((p) => p.text ?? "").join("") ?? "";
-    if (!raw) throw new Error("Gemini returned an empty response. Try again.");
-
-    let parsed: TranslationResult;
+export const translateBill = createServerFn({ method: "POST" })
+  .inputValidator((data: unknown) => Input.parse(data))
+  .handler(async ({ data }): Promise<TranslationResult> => {
+    const prompt = buildPrompt(data.text, data.lang);
     try {
-      parsed = JSON.parse(raw) as TranslationResult;
-    } catch {
-      console.error("Unparseable Gemini output:", raw.slice(0, 800));
-      throw new Error("Could not read the translation returned by Gemini. Try again.");
+      return await viaGemini(prompt);
+    } catch (e) {
+      console.warn("Gemini failed, using backup:", e instanceof Error ? e.message : e);
     }
-    return {
-      overview: parsed.overview ?? "",
-      clauses: Array.isArray(parsed.clauses) ? parsed.clauses : [],
-    };
+    return await viaBackup(prompt);
   });
