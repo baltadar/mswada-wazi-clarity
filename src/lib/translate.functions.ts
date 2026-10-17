@@ -197,7 +197,12 @@ export const translateBill = createServerFn({ method: "POST" })
     try {
       return await viaGemini(prompt);
     } catch (e) {
-      console.warn("Gemini failed, using backup:", e instanceof Error ? e.message : e);
+      console.warn("Gemini failed, trying Groq:", e instanceof Error ? e.message : e);
+    }
+    try {
+      return await viaGroq(prompt);
+    } catch (e) {
+      console.warn("Groq failed, using built-in backup:", e instanceof Error ? e.message : e);
     }
     return await viaBackup(prompt);
   });
