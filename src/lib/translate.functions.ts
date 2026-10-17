@@ -83,6 +83,29 @@ async function viaGemini(prompt: string): Promise<TranslationResult> {
   return normalize(raw);
 }
 
+/** Second fallback: Groq (free tier), used when Gemini fails. */
+async function viaGroq(prompt: string): Promise<TranslationResult> {
+  const key = process.env["GROQ_API_KEY"];
+  if (!key) throw new Error("Groq key missing");
+  const res = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+    method: "POST",
+    headers: { "content-type": "application/json", Authorization: `Bearer ${key}` },
+    body: JSON.stringify({
+      model: "llama-3.3-70b-versatile",
+      temperature: 0.2,
+      response_format: { type: "json_object" },
+      messages: [{ role: "user", content: prompt }],
+    }),
+  });
+  if (!res.ok) {
+    throw new Error(`Groq request failed [${res.status}]: ${(await res.text()).slice(0, 300)}`);
+  }
+  const json = (await res.json()) as { choices?: { message?: { content?: string } }[] };
+  const raw = json.choices?.[0]?.message?.content ?? "";
+  if (!raw) throw new Error("Groq returned an empty response.");
+  return normalize(raw);
+}
+
 /** Backup: built-in AI service, used automatically when Gemini fails. */
 async function viaBackup(prompt: string): Promise<TranslationResult> {
   const key = process.env["LOVABLE_API_KEY"];
