@@ -194,6 +194,27 @@ export const translateBill = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => Input.parse(data))
   .handler(async ({ data }): Promise<TranslationResult> => {
     const prompt = buildPrompt(data.text, data.lang);
+    const providers: [string, (p: string) => Promise<TranslationResult>][] = [
+      ["Gemini", viaGemini],
+      ["Groq", viaGroq],
+      ["Backup", viaBackup],
+    ];
+    const failures: string[] = [];
+    for (const [name, run] of providers) {
+      try {
+        return await run(prompt);
+      } catch (e) {
+        const msg = e instanceof Error ? e.message : String(e);
+        console.warn(`${name} failed:`, msg);
+        failures.push(`${name}: ${msg}`);
+      }
+    }
+    // Report every provider's reason, not just the last one, so the real cause
+    // (usually the first: a missing or rejected Gemini key) is visible.
+    throw new Error(`All translation services failed. ${failures.join(" | ")}`);
+  });  .inputValidator((data: unknown) => Input.parse(data))
+  .handler(async ({ data }): Promise<TranslationResult> => {
+    const prompt = buildPrompt(data.text, data.lang);
     try {
       return await viaGemini(prompt);
     } catch (e) {
