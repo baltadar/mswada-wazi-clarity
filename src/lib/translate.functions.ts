@@ -212,18 +212,4 @@ export const translateBill = createServerFn({ method: "POST" })
     // Report every provider's reason, not just the last one, so the real cause
     // (usually the first: a missing or rejected Gemini key) is visible.
     throw new Error(`All translation services failed. ${failures.join(" | ")}`);
-  });  .inputValidator((data: unknown) => Input.parse(data))
-  .handler(async ({ data }): Promise<TranslationResult> => {
-    const prompt = buildPrompt(data.text, data.lang);
-    try {
-      return await viaGemini(prompt);
-    } catch (e) {
-      console.warn("Gemini failed, trying Groq:", e instanceof Error ? e.message : e);
-    }
-    try {
-      return await viaGroq(prompt);
-    } catch (e) {
-      console.warn("Groq failed, using built-in backup:", e instanceof Error ? e.message : e);
-    }
-    return await viaBackup(prompt);
   });
