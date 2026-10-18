@@ -190,6 +190,25 @@ async function viaBackup(prompt: string): Promise<TranslationResult> {
   return normalize(out);
 }
 
+/** Reports which secrets the running server can see. Never includes values. */
+function envReport(): string {
+  const check = (name: string, prefix: string) => {
+    const v = process.env[name];
+    if (v === undefined) return `${name}=missing`;
+    if (v.trim() === "") return `${name}=empty`;
+    const flags = [`len ${v.length}`, v.startsWith(prefix) ? "prefix ok" : "prefix unexpected"];
+    if (v !== v.trim()) flags.push("has stray spaces");
+    return `${name}=set(${flags.join(", ")})`;
+  };
+  return [
+    check("GOOGLE_API_KEY", "AIza"),
+    check("GEMINI_API_KEY", "AIza"),
+    check("VITE_GOOGLE_API_KEY", "AIza"),
+    check("GROQ_API_KEY", "gsk_"),
+    check("LOVABLE_API_KEY", ""),
+  ].join("; ");
+}
+
 export const translateBill = createServerFn({ method: "POST" })
   .inputValidator((data: unknown) => Input.parse(data))
   .handler(async ({ data }): Promise<TranslationResult> => {
@@ -211,5 +230,5 @@ export const translateBill = createServerFn({ method: "POST" })
     }
     // Report every provider's reason, not just the last one, so the real cause
     // (usually the first: a missing or rejected Gemini key) is visible.
-    throw new Error(`All translation services failed. ${failures.join(" | ")}`);
+    throw new Error(`All translation services failed. ${failures.join(" | ")} || Env: ${envReport()}`);
   });
